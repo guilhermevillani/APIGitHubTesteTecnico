@@ -22,5 +22,8 @@ namespace GitHubAPITesteTecnico.Models
 
         [JsonProperty("language")]
         public string Language { get; set; }
+
+        [JsonProperty("description")]
+        public string Description { get; set; }
     }
 }
